@@ -10,12 +10,8 @@
         <!-- About Column (Animates first) -->
         <div class="lg:col-span-2 animate-on-load animate-fade-in-up" style="animation-delay: 0.1s;">
           <div class="flex items-center space-x-3 mb-6">
-            <!-- Green Spot Color on Logo -->
-            <div class="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center shadow-md">
-              <svg class="w-7 h-7 text-brand-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-              </svg>
-            </div>
+            <!-- Brand Logo -->
+            <img src="img/logo.png" alt="Debanganam Old Age Home Logo" class="w-12 h-12 object-contain shadow-sm">
             <div>
               <span class="text-xl font-bold block text-brand-dark">Debanganam Old Age Home</span>
               <span class="text-sm text-gray-500">A Home Away From Home</span>

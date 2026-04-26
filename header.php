@@ -20,6 +20,9 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://debanganam.com">
   
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png">
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -175,11 +178,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="flex items-center space-x-2 flex-shrink-0">
-          <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#A8D5BA] flex items-center justify-center">
-            <svg class="w-6 h-6 md:w-7 md:h-7 text-[#333333]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-            </svg>
-          </div>
+          <img src="img/logo.png" alt="Debanganam Old Age Home Logo" class="w-10 h-10 md:w-12 md:h-12 object-contain">
           <div class="hidden sm:block">
             <span class="text-lg md:text-xl font-bold text-[#333333] leading-tight block">Debanganam</span>
             <span class="text-xs md:text-sm text-[#666666] leading-tight">Old Age Home</span>
