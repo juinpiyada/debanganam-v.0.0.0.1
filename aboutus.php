@@ -49,7 +49,7 @@
             <div class="absolute -top-10 -left-10 w-40 h-40 bg-[#A8D5BA] rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
             <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-[#E53935]/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
             <div class="relative bg-white p-4 rounded-[2.5rem] shadow-2xl rotate-3">
-              <img src="about_us_hero_1777190542668.png" alt="Happy residents" class="rounded-[2rem] w-full h-[500px] object-cover">
+              <img src="img/img-1.jpeg" alt="Happy residents at Debanganam" class="rounded-[2rem] w-full h-[500px] object-cover">
             </div>
           </div>
         </div>
@@ -62,19 +62,19 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 bg-[#333333] rounded-[3rem] p-12 shadow-2xl reveal">
         <div class="text-center text-white border-r border-white/10 last:border-0">
-          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA]">5+</div>
+          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA] flex justify-center"><span class="counter" data-target="7">0</span>+</div>
           <p class="text-sm uppercase tracking-widest text-gray-400">Years of Excellence</p>
         </div>
         <div class="text-center text-white border-r border-white/10 last:border-0">
-          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA]">1.2k+</div>
+          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA] flex justify-center"><span class="counter" data-target="1200">0</span>+</div>
           <p class="text-sm uppercase tracking-widest text-gray-400">Meals Served Daily</p>
         </div>
         <div class="text-center text-white border-r border-white/10 last:border-0">
-          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA]">50+</div>
+          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA] flex justify-center"><span class="counter" data-target="50">0</span>+</div>
           <p class="text-sm uppercase tracking-widest text-gray-400">Expert Caregivers</p>
         </div>
         <div class="text-center text-white">
-          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA]">24/7</div>
+          <div class="text-5xl font-extrabold mb-2 text-[#A8D5BA] flex justify-center"><span class="counter" data-target="24">0</span>/7</div>
           <p class="text-sm uppercase tracking-widest text-gray-400">Medical Vigilance</p>
         </div>
       </div>
@@ -121,8 +121,8 @@
         </div>
         <div class="reveal relative">
           <div class="grid grid-cols-2 gap-4">
-            <img src="activities_yoga_1777191822443.png" alt="Yoga" class="rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500 mt-12 h-64 object-cover">
-            <img src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?w=400&h=600&fit=crop" alt="Nature" class="rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500 h-[450px] object-cover">
+            <img src="img/img-3.jpeg" alt="Yoga" class="rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500 mt-12 h-64 object-cover">
+            <img src="img/img-4.jpeg" alt="Nature" class="rounded-3xl shadow-xl hover:scale-105 transition-transform duration-500 h-[450px] object-cover">
           </div>
           <!-- Decorative SVG Pattern -->
           <svg class="absolute -z-10 -bottom-10 -right-10 text-[#A8D5BA]/20 w-32 h-32" fill="currentColor" viewBox="0 0 200 200"><path d="M43.3,-62.4C55.7,-53.4,65.1,-40.1,70.9,-25.2C76.7,-10.3,78.9,6.2,74.5,21.1C70.1,36,59,49.3,45.8,59.3C32.7,69.2,17.4,75.8,2,73.1C-13.4,70.3,-28.9,58.3,-41.8,47.3C-54.7,36.2,-65.1,26.2,-69.6,13.9C-74.1,1.5,-72.7,-13.2,-66.1,-25.9C-59.5,-38.5,-47.7,-49,-35.1,-58C-22.5,-67,-9.1,-74.5,3.7,-79.6C16.5,-84.7,30.8,-71.4,43.3,-62.4Z" transform="translate(100 100)" /></svg>
@@ -143,7 +143,7 @@
         <!-- Founder -->
         <div class="reveal bg-white rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 group">
           <div class="relative overflow-hidden h-80">
-            <img src="team_founder_1777191801789.png" alt="Founder" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <img src="img/img-5.jpeg" alt="Founder" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-[#333333]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
               <div class="flex space-x-4">
                 <a href="#" class="text-white hover:text-[#A8D5BA] transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
@@ -160,7 +160,7 @@
         <!-- Medical Head -->
         <div class="reveal bg-white rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 group" style="transition-delay: 0.2s;">
           <div class="relative overflow-hidden h-80">
-            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=700&fit=crop" alt="Medical Head" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <img src="img/img-6.jpeg" alt="Medical Head" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-[#333333]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
               <div class="flex space-x-4">
                 <a href="#" class="text-white hover:text-[#A8D5BA] transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
@@ -177,7 +177,7 @@
         <!-- Operations -->
         <div class="reveal bg-white rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 group" style="transition-delay: 0.4s;">
           <div class="relative overflow-hidden h-80">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&h=700&fit=crop" alt="Operations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+            <img src="img/img-7.jpeg" alt="Operations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             <div class="absolute inset-0 bg-gradient-to-t from-[#333333]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
               <div class="flex space-x-4">
                 <a href="#" class="text-white hover:text-[#A8D5BA] transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
@@ -201,7 +201,7 @@
         <div class="lg:w-1/2 reveal">
           <div class="relative">
             <div class="absolute -inset-4 bg-[#E53935]/5 rounded-[3rem] rotate-2"></div>
-            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop" alt="Dining" class="relative rounded-[2.5rem] shadow-2xl">
+            <img src="img/img2.jpeg" alt="Dining" class="relative rounded-[2.5rem] shadow-2xl">
           </div>
         </div>
         <div class="lg:w-1/2 reveal">

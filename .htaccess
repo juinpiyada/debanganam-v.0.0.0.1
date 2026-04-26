@@ -1,0 +1,57 @@
+# Set Correct MIME Type for XML Sitemaps
+AddType application/xml .xml
+
+# Prevent Directory Listing
+Options -Indexes
+
+# Protect .htaccess file
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Security Headers
+<IfModule mod_headers.c>
+    # Prevent site from being embedded in an iframe (Clickjacking protection)
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # Prevent browsers from MIME-sniffing the response
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Enable XSS protection in modern browsers
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Referrer Policy
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Disable Server Signature
+ServerSignature Off
+
+# Block sensitive files access
+<FilesMatch "\.(bak|config|sql|log|ini|sh|inc|swp|dist|php~|php_bak)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# SEO and URL Rewriting
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect index.php to root
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+    RewriteRule ^index\.php$ / [R=301,L]
+
+    # Hide .php extension - Redirect example.php to example
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+    RewriteRule ^ %1 [R=301,L]
+
+    # Internally rewrite extensionless URL to .php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+
+# Error Document Handling
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php

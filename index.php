@@ -64,7 +64,7 @@
           <div class="reveal relative">
             <div class="relative rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1516307365426-bea591f05011?w=600&h=500&fit=crop" 
+                src="img/img-1.jpeg" 
                 alt="Elderly residents enjoying comfortable living at Debanganam Old Age Home in Sonarpur, Kolkata" 
                 class="w-full h-[400px] md:h-[500px] object-cover"
                 loading="eager"
@@ -109,13 +109,13 @@
             <div class="grid grid-cols-2 gap-4">
               <div class="space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?w=300&h=200&fit=crop" 
+                  src="img/img-3.jpeg" 
                   alt="Comfortable room at old age home in Kolkata" 
                   class="rounded-2xl shadow-lg w-full h-40 object-cover"
                   loading="lazy"
                 >
                 <img 
-                  src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?w=300&h=280&fit=crop" 
+                  src="img/img-4.jpeg" 
                   alt="Garden area at elderly care facility Sonarpur" 
                   class="rounded-2xl shadow-lg w-full h-56 object-cover"
                   loading="lazy"
@@ -123,13 +123,13 @@
               </div>
               <div class="pt-8 space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=300&h=280&fit=crop" 
+                  src="img/img-5.jpeg" 
                   alt="Medical care services at Debanganam nursing home" 
                   class="rounded-2xl shadow-lg w-full h-56 object-cover"
                   loading="lazy"
                 >
                 <img 
-                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=200&fit=crop" 
+                  src="img/img-6.jpeg" 
                   alt="Professional caregivers at old age home Kolkata" 
                   class="rounded-2xl shadow-lg w-full h-40 object-cover"
                   loading="lazy"
@@ -328,16 +328,7 @@
             <p class="text-gray-600 text-sm">Stay connected with family through video calls</p>
           </div>
           
-          <!-- Facility Item -->
-          <div class="reveal bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-14 h-14 bg-[#A8D5BA] rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
-              </svg>
-            </div>
-            <h3 class="font-bold text-lg mb-2">CCTV Surveillance</h3>
-            <p class="text-gray-600 text-sm">24/7 security monitoring for safety</p>
-          </div>
+
           
           <!-- Facility Item -->
           <div class="reveal bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
@@ -383,16 +374,7 @@
             <p class="text-gray-600 text-sm">Uninterrupted electricity supply</p>
           </div>
           
-          <!-- Facility Item -->
-          <div class="reveal bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <div class="w-14 h-14 bg-[#A8D5BA] rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
-              </svg>
-            </div>
-            <h3 class="font-bold text-lg mb-2">AC Rooms Available</h3>
-            <p class="text-gray-600 text-sm">Air-conditioned rooms on request</p>
-          </div>
+
           
           <!-- Facility Item -->
           <div class="reveal bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
@@ -426,7 +408,7 @@
           
           <div class="reveal gallery-item col-span-2 row-span-2 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1516307365426-bea591f05011?w=600&h=500&fit=crop" 
+              src="img/img-7.jpeg" 
               alt="Residents enjoying activities at Debanganam Old Age Home Sonarpur" 
               class="w-full h-full object-cover transition-transform duration-500"
               loading="lazy"
@@ -435,7 +417,7 @@
           
           <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?w=300&h=300&fit=crop" 
+              src="img/img-8.jpeg" 
               alt="Comfortable living room at elderly care facility Kolkata" 
               class="w-full h-48 object-cover transition-transform duration-500"
               loading="lazy"
@@ -444,7 +426,7 @@
           
           <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=300&h=300&fit=crop" 
+              src="img/img-9.jpeg" 
               alt="Medical care room at nursing home Sonarpur" 
               class="w-full h-48 object-cover transition-transform duration-500"
               loading="lazy"
@@ -453,7 +435,7 @@
           
           <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop" 
+              src="img/img-10.jpeg" 
               alt="Professional nursing staff at Debanganam Kolkata" 
               class="w-full h-48 object-cover transition-transform duration-500"
               loading="lazy"
@@ -462,7 +444,7 @@
           
           <div class="reveal gallery-item rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?w=300&h=300&fit=crop" 
+              src="img/img-3.jpeg" 
               alt="Beautiful garden at old age home Sonarpur Kolkata" 
               class="w-full h-48 object-cover transition-transform duration-500"
               loading="lazy"
@@ -471,7 +453,16 @@
           
           <div class="reveal gallery-item col-span-2 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
             <img 
-              src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=300&fit=crop" 
+              src="img/img-4.jpeg" 
+              alt="Activities area at Debanganam elderly care Sonarpur" 
+              class="w-full h-48 object-cover transition-transform duration-500"
+              loading="lazy"
+            >
+          </div>
+          
+          <div class="reveal gallery-item col-span-2 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+            <img 
+              src="img/img-5.jpeg" 
               alt="Dining area at Debanganam elderly care Sonarpur" 
               class="w-full h-48 object-cover transition-transform duration-500"
               loading="lazy"
